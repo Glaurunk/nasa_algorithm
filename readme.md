@@ -29,7 +29,7 @@ required. Web server usage is not required.</p>
 ● Use of Design Patterns
 ● Use of Unit Tests
 </ul>
-
+<br>
 <p>Specification</p>
 <p>
 A squad of robotic rovers is to be landed by NASA on a plateau on Mars.
@@ -61,14 +61,14 @@ until the first one has finished moving.</p>
 <p>Output</p>
 <p>The output for each rover should be its final coordinates and heading.</p>
 
-<p>Example
-Test input:
-5 5
-1 2 N
-LMLMLMLMM
-3 3 E
-MMRMMRMRRM
-Test output:
-1 3 N
+<p>Example<br>
+Test input:<br>
+5 5<br>
+1 2 N<br>
+LMLMLMLMM<br>
+3 3 E<br>
+MMRMMRMRRM<br>
+Test output:<br>
+1 3 N<br>
 5 1 E</p>
 </em>
