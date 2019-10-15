@@ -1,9 +1,9 @@
 <h1>A php algorithm in a Laravel nushell</h1>
 
-<p>Below is a case study for a job interview. The study requires to deliver in 3 hursea php console app, something I had never done before and didn't know how. Since I knew from the beginning I couldn't complete the excercise as intented and within time, I decided to place it inside a laravel application and work through it as a web app. Eventually the logic should be similar to the console app; its php after all.</p>
-<p>The time It took me to complete this excercise and upload it to this repository was around six hours (double than the intented!). However it has a nice form instead of some ugly console cursor input and some input validation which consumed most of my time (I spent two hours alone in trying to make laravel 6.2 validation requests work to no avail and a couple more hours validating strings and integers; though a bit counter-productive it was admittedly fun :) )</p>
-<p>Certainly the code could use much improvement, especially a couple of functions to get rid of all the repetitive code; and surely some more debugging; maybe some other time along with some visualization, perhaps!</p>
-<p>Feel free to comment if you care. What I am especially curious about is to weather yjis problem could be solved with OOP and how.</p>
+<p>Below is a case study for a job interview. The study required to deliver in 3 hours a php console app, something I had never done before and - being a web developer - didn't know how, especially unit testing, etc. Since I knew from the beginning I couldn't complete the excercise as intented and within time, I decided to place it inside a laravel application and work through it as a web app in my own terms. Eventually the logic should be similar to the console app; its php after all.</p>
+<p>The time It took me to complete this excercise and upload it to this repository was around six hours (double than the maximum allowed!). However it has a nice form instead of some ugly console cursor input and some input validation which consumed most of my time (I spent two hours alone in trying to make laravel 6.2 validation requests work to no avail and a couple more hours validating strings and integers; though a bit counter-productive the experiment was admittedly fun :) )</p>
+<p>Certainly the code could use much improvement, especially a couple of functions to get rid of all the repetitive code; and surely some more debugging and better validation and error messaging; maybe some other time along with some visualization, perhaps!</p>
+<p>Feel free to comment if you care. What I am especially curious about is to weather this problem could be solved with OOP and how you would approach it.</p>
 
 <p>Best regards</p>
 
