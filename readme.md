@@ -1,74 +1,68 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<h1>A php algorithm in a Laravel nushell</h1>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<p>Below is a case study for a job interview. The study requires to deliver in 3 hursea php console app, something I had never done before and didn't know how. Since I knew from the beginning I couldn't complete the excercise as intented and within time, I decided to place it inside a laravel application and work through it as a web app. Eventually the logic should be similar to the console app; its php after all.</p>
+<p>The time It took me to complete this excercise and upload it to this repository was around six hours (double than the intented!). However it has a nice form instead of some ugly console cursor input and some input validation which consumed most of my time (I spent two hours alone in trying to make laravel 6.2 validation requests work to no avail and a couple more hours validating strings and integers; though a bit counter-productive it was admittedly fun :) )</p>
+<p>Certainly the code could use much improvement, especially a couple of functions to get rid of all the repetitive code; and surely some more debugging; maybe some other time along with some visualization, perhaps!</p>
+<p>Feel free to comment if you care. What I am especially curious about is to weather yjis problem could be solved with OOP and how.</p>
 
-## About Laravel
+<p>Best regards</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p>-------------Overview--------------</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p>
+Purpose of this assignment is to demonstrate your level of algorithm implementation skills.
+Read the specification and start implementing the algorithm. It is not required to implement the
+whole algorithm but any part that you deliver should be completed. It is better to deliver a small
+part that is polished rather that the whole algorithm roughly implemented. Database usage is not
+required. Web server usage is not required.</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p>Evaluation Points</p>
+</ul>
+● Usage of latest PHP
+● Deliver the project in online git repo (github, gitlab, bitbucket or other)
+● Deliver PHP Console App
+● Run instructions
+● Usage of Composer
+● Runs through Docker
+● Code Standards Consistency
+● Use of Design Patterns
+● Use of Unit Tests
+</ul>
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p>Specification</p>
+<p>
+A squad of robotic rovers is to be landed by NASA on a plateau on Mars.
+This plateau, which is curiously rectangular, must be navigated by the rovers so that their on
+board cameras can get a complete view of the surrounding terrain to send back to Earth.
+A rover's position is represented by a combination of an x and y coordinates and a letter
+representing one of the four cardinal compass points. The plateau is divided up into a grid to
+simplify navigation. An example position might be 0, 0, N, which means the rover is in the
+bottom left corner and facing North.
+In order to control a rover, NASA sends a simple string of letters. The possible letters are 'L', 'R'
+and 'M'. 'L' and 'R' makes the rover spin 90 degrees left or right respectively, without moving
+from its current spot.
+'M' means move forward one grid point, and maintain the same heading.
+Assume that the square directly North from (x, y) is (x, y+1).
+    </p>
+Input
+The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are
+assumed to be 0,0.
+The rest of the input is information pertaining to the rovers that have been deployed. Each rover
+has two lines of input. The first line gives the rover's position, and the second line is a series of
+instructions telling the rover how to explore the plateau.
+The position is made up of two integers and a letter separated by spaces, corresponding to the
+x and y coordinates and the rover's orientation.
+Each rover will be finished sequentially, which means that the second rover won't start to move
+until the first one has finished moving.
+Output
+The output for each rover should be its final coordinates and heading.
+Example
+Test input:
+5 5
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM
+Test output:
+1 3 N
+5 1 E
