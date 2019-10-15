@@ -18,6 +18,7 @@ part that is polished rather that the whole algorithm roughly implemented. Datab
 required. Web server usage is not required.</p>
 
 <p>Evaluation Points</p>
+<p>
 </ul>
 ● Usage of latest PHP
 ● Deliver the project in online git repo (github, gitlab, bitbucket or other)
@@ -29,6 +30,7 @@ required. Web server usage is not required.</p>
 ● Use of Design Patterns
 ● Use of Unit Tests
 </ul>
+</p>
 <br>
 <p>Specification</p>
 <p>
